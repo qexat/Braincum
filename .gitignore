@@ -1,0 +1,21 @@
+# *- Python related stuff -* #
+
+# Language
+__pycache__/
+
+# Poetry
+poetry.lock
+dist/
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+.coverage
+
+# *- Environment -* #
+.venv/
+
+# *- Minimal implementation -* #
+src/braincum.py
